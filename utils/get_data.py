@@ -1,11 +1,9 @@
-import requests
 import json
 import numpy as np
 import pandas as pd
 import xmltodict
-import pickle
 import time
-from geocoder import *
+from utils.geocoder import *
 from pyproj import transform, Proj
 
 
@@ -119,7 +117,7 @@ def get_LPG_coords(file_path="data/lpg_coords.csv"):
     try:
         return pd.read_csv(file_path, header=0)
     except FileNotFoundError:
-        LPG = pd.read_csv("한국가스안전공사_전국 LPG 충전소 현황_20200824.csv", header=0, encoding='cp949')
+        LPG = pd.read_csv("../public_data/한국가스안전공사_전국 LPG 충전소 현황_20200824.csv", header=0, encoding='cp949')
         LPG.drop(LPG.index[LPG['행정 구역'].str[:2] != '서울'], axis=0, inplace=True)
         coord_lst = []
         for i in LPG.index:
