@@ -1,0 +1,8 @@
+proposal
+map_images
+.ipynb_checkpoints
+.idea
+__pycache__
+results
+
+*.docx
