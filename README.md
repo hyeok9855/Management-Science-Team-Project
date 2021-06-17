@@ -10,7 +10,7 @@ The report of this work is in the **final report** folder.
 Note: If the Open API Keys was expired, you need to issue another one and replace with it.  
 
 ### Optimal Sites 
-Result file (pickled dictionary) is available [here](https://drive.google.com/drive/folders/1t2iUaqlWOnGf5NWPeDl5YyHM1U-yaubX?usp=sharing). You can download the files into '''/results''' directory.
+Result file (pickled dictionary) is available [here](https://drive.google.com/drive/folders/1t2iUaqlWOnGf5NWPeDl5YyHM1U-yaubX?usp=sharing). You can download the files into ```/results``` directory.
 
 ![Optimum_Map_2](https://user-images.githubusercontent.com/40595684/122395756-45604f00-cfb2-11eb-95a7-e26ce9156094.PNG)
 ![Optimal_list](https://user-images.githubusercontent.com/40595684/122395761-46917c00-cfb2-11eb-8f4e-77689d5b48a9.PNG)
